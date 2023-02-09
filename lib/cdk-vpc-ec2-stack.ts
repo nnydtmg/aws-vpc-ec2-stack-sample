@@ -13,7 +13,7 @@ export class CdkVpcEc2Stack extends Stack {
     const bucket = new s3.Bucket(this, 'SampleBucket', {
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
       encryption: s3.BucketEncryption.S3_MANAGED,
-      bucketName: "cdk-vpc-ec2-sample-bucket",
+      bucketName: "cdk-vpc-ec2-sample-nnydtmg-bucket",
     });
 
     // VPC
