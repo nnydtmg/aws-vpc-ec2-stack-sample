@@ -5,9 +5,9 @@ import { DefaultStackSynthesizer } from 'aws-cdk-lib';
 
 const app = new cdk.App();
 new CdkVpcEc2Stack(app, 'CdkVpcEc2Stack', {
-    synthesizer: new DefaultStackSynthesizer({
+    /*synthesizer: new DefaultStackSynthesizer({
         fileAssetsBucketName: 'cdk-assets-nnydtmg-bucket', // bootstrapのバケット名を指定
-    }),
+    }),*/
     description: 'This is a cdk-vpc-ec2-sample-stack', // CloudFormationスタックに説明を追加
     env: {
         account: process.env.CDK_DEFAULT_ACCOUNT,
