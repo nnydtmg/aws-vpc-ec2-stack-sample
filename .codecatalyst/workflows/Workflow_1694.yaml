@@ -51,7 +51,7 @@ Actions:
     Identifier: aws/cdk-deploy@v1
     Configuration:
       Region: ap-northeast-1
-      StackName: Aws1Vpc3PrivateSubnetStack
+      StackName: CdkVpcEc2Stack
     Environment:
       Connections:
         - Role: CodeCatalystPreviewDevelopmentAdministrator-2vjknx
